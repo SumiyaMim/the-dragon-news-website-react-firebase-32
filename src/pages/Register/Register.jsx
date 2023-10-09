@@ -25,7 +25,7 @@ const Register = () => {
             console.log(result.user)
 
             // navigate after register
-            navigate(location?.state ? location.state : '/');
+            navigate('/');
         })
         .catch(error => {
             console.error(error)
